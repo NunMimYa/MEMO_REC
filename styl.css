@@ -1,0 +1,131 @@
+body{
+    margin:0;
+    background: linear-gradient(90deg,rgb(66, 255, 3) 21%, #000000);
+    /* background-color: #073b4c; */
+    /* background-color: #000; */
+    /* color: #fff;  */
+    color: #000; 
+}
+
+.main{
+    /* background: linear-gradient(170deg,#fff 0%, #073b4c); */
+    /* background: linear-gradient(0deg,#fff -90%, #073b4c); */
+    /* background: linear-gradient(90deg,rgb(66, 255, 3) 21%, #000000); */
+    position: relative;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+h2{
+    position: relative;
+    position: absolute;
+    top: 3%;
+    margin: 0 43%;  
+    /* color: #fff;   */
+    /* margin: 0 auto;     */
+}
+
+.formulaire{
+    position:absolute;
+    position:relative;
+    /* background: linear-gradient(90deg,rgb(251, 255, 6) -100%, #000000); */
+    background-color: #000d1f;
+    width: 50%;
+    height: 80%;
+    margin:auto;
+    top:10%;
+    color: #fff;
+    display: flex;
+    display: block;
+    text-align:center;
+    /* border: 1px solid rgb(179, 255, 0); */
+    /* margin-top: 1%; */
+    padding-top: 3%;
+    /* flex-direction: row-reverse; */
+}
+
+.form-example{
+    /* position:absolute;
+    position:relative;
+    top:10%;
+    width: 80%;
+    margin: auto; */
+}
+.output_one{
+    /* position:absolute;
+    position:relative; */
+    font-size: 5em;
+    /* top:3%; */
+    /* color: chartreuse; */
+    margin:auto;
+    /* padding-right: 1%; */
+    width: fit-content;
+    /* border-bottom:1px solid #fff; */
+    margin-bottom: 3%;
+}
+#fnumber{
+    /* position:absolute; */
+    /* position:relative; */
+    width: 30%;
+    margin: auto;
+    /* top: 5%; */
+}
+
+button{
+    width: 30%;
+    height: 70px;
+    margin: auto;
+    border-radius:10px;    
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1);    
+}
+.answer{
+    /* display:none; */
+}
+.submit:hover, .newop:hover, .again:hover {
+    cursor:pointer;
+}
+.first{
+    display:grid;
+}
+.second{
+    display:none;    
+}
+.congrat{
+    /* display:none; */
+    /* display:block; */
+    text-transform: uppercase;
+    /* color: #fff; */
+}
+
+table {
+    width:99%;
+    margin:auto;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+td {
+    /* width:100%; */
+    border: 1px solid rgb(255, 255, 255);
+}
+
+thead{
+    /* background-color: rgb(255, 255, 255); */
+    color: #fff;
+}
+
+tfoot {
+    /* background-color: rgb(255, 255, 255); */
+    color: #fff;
+}
+.again{
+    right:0;
+}
+
+.nice{
+    /* display:none; */
+    visibility: hidden;
+    text-transform: uppercase;
+}

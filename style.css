@@ -1,0 +1,57 @@
+body{
+    margin:0;
+    /* background: linear-gradient(170deg,#fff 0%, #073b4c); */
+    /* background-color: #073b4c; */
+}
+
+.main{
+    /* background: linear-gradient(170deg,#fff 0%, #073b4c); */
+    background: linear-gradient(0deg,#fff -90%, #073b4c);
+    position: relative;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+h2{
+    position: relative;
+    position: absolute;
+    top: 3%;
+    margin: 0 43%;    
+    /* margin: 0 auto;     */
+}
+
+.formulaire{
+    position:absolute;
+    position:relative;
+    background-color: #073b4c;
+    width: 50%;
+    height: 80%;
+    margin:auto;
+    top:10%;
+    color: #fff;
+}
+.form-example{
+    position:absolute;
+    position:relative;
+    top:10%;
+    width: 80%;
+    margin: auto;
+}
+.output_one{
+    position:absolute;
+    position:relative;
+    font-size: 3em;
+    top:3%;
+    color: chartreuse;
+    margin:auto;
+    padding-right: 1%;
+    width: fit-content;
+    border-bottom:1px solid #fff;
+}
+#fnumber{
+    position:absolute;
+    position:relative;
+    /* width: 30%; */
+    margin: auto;
+    top: 5%;
+}
